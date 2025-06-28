@@ -60,7 +60,7 @@ export default function NavHeader({ className, header }: HeaderProps) {
 
 			<div className={className}>
 				<div className="grid col-span-3">
-					<p className="text-xl font-bold" >{header}</p>
+					<p className="text-2xl md:text-4xl font-extrabold" >{header}</p>
 				</div>
 
 				<div className="col-span-6 h-full hidden sm:flex justify-center items-center">

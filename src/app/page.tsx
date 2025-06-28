@@ -1,4 +1,5 @@
 import NavHeader from "@/components/navheader/nav_header";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -22,8 +23,8 @@ text-center cursor-pointer border-2 border-amber-500 hover:bg-amber-500 hover:te
           </div>
         </div>
 
-        <div className="md:flex-5/12 flex-wrap flex-col items-center justify-items-center order-first md:order-none">
-          <img src="./img/hero.svg" className=" md:h-full drop-shadow-xl brightness-110 " />
+        <div className="md:flex-5/12 flex-wrap flex-col items-center relative flex-grow justify-items-center order-first md:order-none">
+          <Image src="./img/hero.svg" fill alt="Hero Image" className=" md:h-full drop-shadow-xl brightness-110 " />
 
         </div>
 
