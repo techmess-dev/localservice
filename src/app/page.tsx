@@ -6,38 +6,29 @@ export default function Home() {
 
       <NavHeader header="LocalService" className="grid grid-cols-12 px-8 py-8 text-sm font-semibold text-purple-900 dark:text-slate-300" />
 
-      <div className="flex-grow grid sm:grid-cols-12 px-8 gap-8 items-center font-sans "  >
 
-        <div className="grid sm:col-span-7 h-full items-center">
+      <div className="flex flex-col md:flex-row flex-grow items-stretch font-sans gap-6 pt-8 md:pt-0 py-4 px-4 md:px-8 ">
 
-          <div className="grid gap-6">
+        <div className="flex flex-7/12 flex-col gap-6  justify-center">
 
-            <p className="font-extrabold text-7xl  drop-shadow-2xl text-purple-900 dark:text-purple-400" >Fast, Reliable Home Tech Services</p>
+          <p className="font-extrabold text-4xl  md:text-7xl  text-purple-900 dark:text-purple-400" >Fast, Reliable Home Tech Services</p>
 
-            <p className="font-extrabold text-2xl from-neutral-900  text-purple-900 dark:text-slate-500 opacity-65 dark:opacity-100">From AC installation to wiring, fan repair to water purifier servicing — we deliver trusted, affordable, and on-time solutions for your home and office.</p>
+          <p className="font-extrabold text-lg md:text-2xl  text-purple-900 dark:text-slate-500 opacity-65 dark:opacity-100">From AC installation to wiring, fan repair to water purifier servicing — we deliver trusted, affordable, and on-time solutions for your home and office.</p>
 
-            <div className="flex">
+          <div className="flex">
 
-              <p className=" px-12 py-2 text-lg  text-amber-500 font-extrabold  
-text-center cursor-pointer border-2 border-amber-500 hover:bg-amber-500 hover:text-white dark:hover:text-black transition duration-200 select-none  hover:shadow-2xl" >Book a service</p>
-
-              {/* <div className="flex flex-col text-xs px-8 text-purple-900 text-center cursor-pointer hover:text-white hover:bg-amber-500 dark:text-slate-300 dark:hover:text-black select-none items-center justify-center" >
-    <p className="font-xs font-normal" >Call us at</p>
-    <p className="font-sm font-semibold">+91-9854935115</p>
-  </div> */}
-
-            </div>
+            <p className="text-lg px-12 py-2 text-amber-500 font-extrabold  
+text-center cursor-pointer border-2 border-amber-500 hover:bg-amber-500 hover:text-white dark:hover:text-black transition duration-200 select-none  hover:shadow-2xl w-full md:w-auto" >Book a service</p>
           </div>
+        </div>
 
-
+        <div className="md:flex-5/12 flex-wrap flex-col items-center justify-items-center order-first md:order-none">
+          <img src="./img/hero.svg" className=" md:h-full drop-shadow-xl brightness-110 " />
 
         </div>
 
-
-
-        <img src="./img/hero.svg" className="grid  sm:col-span-5 drop-shadow-xl brightness-110 order-first sm:order-none" />
-
       </div>
+
 
       <footer className=" px-8 py-4 text-center text-purple-900 dark:text-slate-300 text-xs font-mono">
 
